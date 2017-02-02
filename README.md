@@ -13,7 +13,7 @@ I decided to create website using React+Redux stack. Shop items are loaded throu
 
 ### Heroku
 
-Heroku website
+I also posted website on [Heroku](https://obscure-atoll-40915.herokuapp.com/catalog), check it out
 
 
 ## License
