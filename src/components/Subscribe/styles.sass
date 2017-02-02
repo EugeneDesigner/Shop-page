@@ -1,0 +1,77 @@
+@keyframes shake
+  10%, 90%
+    transform: translate3d(-1px, 0, 0)
+
+
+  20%, 80%
+    transform: translate3d(2px, 0, 0)
+
+
+  30%, 50%, 70%
+    transform: translate3d(-4px, 0, 0)
+
+
+  40%, 60%
+    transform: translate3d(4px, 0, 0)
+
+
+
+.subscribe
+  margin: 80px 0
+  height: 291px
+  margin: 0 auto
+
+  background-image: url('../../common/images/background.png')
+  background-size: cover
+  background-repeat: no-repeat
+
+  >div
+    display: flex
+    align-items: center
+    flex-flow: column wrap
+
+  h3
+    color: #333333
+    font-size: .9em
+    text-transform: uppercase
+    letter-spacing: .1em
+    margin: 70px 0 0px
+  h1
+    font-size: 2.3em
+    color: #ffffff
+    font-weight: light
+
+  .subscribe__form
+    position: relative
+    span
+      position: absolute
+      right: 20px
+      top: 30%
+      font-size: 1.2em
+      color: #fff
+      cursor: pointer
+
+      &:hover
+        animation: shake 1s
+
+  input
+    border-radius: 30px
+    background-color: transparent
+    outline: 0
+    border: 1px solid rgba(255, 255, 255, .6)
+    width: 308px
+    height: 50px
+    padding: 0 10px 0 30px
+    color: #fff
+
+  ::-webkit-input-placeholder
+    text-transform: uppercase
+    color: #fff
+    letter-spacing: .1em
+    font-size: .7em
+  ::-moz-placeholder
+    color: yellow
+  :-ms-input-placeholder
+    color: yellow
+  :-moz-placeholder
+    color: yellow

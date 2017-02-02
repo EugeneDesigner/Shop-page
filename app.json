@@ -1,0 +1,16 @@
+{
+  "name": "app",
+  "description": "",
+  "keywords": [
+    "node",
+    "react",
+    "express"
+  ],
+  "success_url": "/",
+  "env": {
+    "PORT": {
+      "description": "Port on which express is running.",
+      "value": "443"
+    }
+  }
+}
